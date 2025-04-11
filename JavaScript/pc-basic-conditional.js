@@ -29,12 +29,56 @@
 //     DISPLAY "Pertimbangkan ganti pakaian agar lebih sopan."
 // END IF
 
-let dressCode = "kemeja"
+// let dressCode = "kemeja"
 
-if (dressCode === "jas") {
-    console.log("Pakaian sangat formal, cocok untuk presentasi!")
-} else if (dressCode === "kemeja") {
-    console.log("Pakaian sudah cocok untuk kantor.")
-} else {
-    console.log("Pertimbangkan ganti pakaian agar lebih sopan")
-}
+// if (dressCode === "jas") {
+//     console.log("Pakaian sangat formal, cocok untuk presentasi!")
+// } else if (dressCode === "kemeja") {
+//     console.log("Pakaian sudah cocok untuk kantor.")
+// } else {
+//     console.log("Pertimbangkan ganti pakaian agar lebih sopan")
+// }
+
+
+// STORE makanan WITH ANY STRING
+// IF makanan EQUALS "burger" THEN
+//     DISPLAY "Fast food lover detected!"
+// ELSE IF makanan EQUALS "sate" THEN
+//     DISPLAY "Wah, pecinta kuliner Nusantara!"
+// ELSE
+//     DISPLAY "Pilihan yang menarik!"
+// END IF
+
+// let food = "burger"
+
+// if (food === "burger") {
+//     console.log("Fast food lover detected!")
+// } else if (food === "sate") {
+//     console.log("Wah, pecinta kuliner Nusantara!")
+// } else {
+//     console.log("Pilihan yang menarik!")
+// }
+
+
+// STORE mode WITH ANY STRING
+// IF mode EQUALS "easy" THEN
+//     DISPLAY "Cocok untuk pemula."
+// ELSE IF mode EQUALS "normal" THEN
+//     DISPLAY "Tingkat kesulitan seimbang."
+// ELSE IF mode EQUALS "hard" THEN
+//     DISPLAY "Siap-siap tantangan berat!"
+// ELSE
+//     DISPLAY "Mode tidak dikenal."
+// END IF
+
+// let mode = "apa"
+
+// if (mode === "easy") {
+//     console.log("Cocok untuk pemula.")
+// } else if (mode === "normal") {
+//     console.log("Tingkat kesulitan seimbang.")
+// } else if (mode === "hard") {
+//     console.log("Siap-siap tantangan berat!.")
+// } else {
+//     console.log("Mode tidak dikenal.")
+// }
