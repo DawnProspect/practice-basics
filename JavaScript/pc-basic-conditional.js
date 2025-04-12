@@ -82,3 +82,30 @@
 // } else {
 //     console.log("Mode tidak dikenal.")
 // }
+
+
+// STORE totalBelanja WITH ANY NUMBER
+// STORE isMember WITH BOOLEAN
+
+// IF totalBelanja MORE THAN 500000 AND isMember IS TRUE THEN
+//     DISPLAY "Diskon 20% untuk member!"
+// ELSE IF totalBelanja MORE THAN 500000 THEN
+//     DISPLAY "Diskon 10% untuk non-member"
+// ELSE IF totalBelanja MORE THAN 200000 AND isMember IS TRUE THEN
+//     DISPLAY "Diskon 5% untuk member"
+// ELSE
+//     DISPLAY "Belanja lebih banyak untuk dapat diskon!"
+// END IF
+
+let totalGroceries = 50000000
+let isMember = true
+
+if (totalGroceries > 500000 && isMember === true) {
+    console.log("Diskon 20% untuk member!")
+} else if (totalGroceries > 500000) {
+    console.log("Diskon 10% untuk non member")
+} else if (totalGroceries > 200000 && isMember === true) {
+    console.log("Diskon 5% untuk member")
+} else {
+    console.log("Belanja lebih banyak untuk dapat diskon!")
+}
