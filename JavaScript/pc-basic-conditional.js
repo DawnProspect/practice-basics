@@ -97,15 +97,38 @@
 //     DISPLAY "Belanja lebih banyak untuk dapat diskon!"
 // END IF
 
-let totalGroceries = 50000000
-let isMember = true
+// let totalGroceries = 50000000
+// let isMember = true
 
-if (totalGroceries > 500000 && isMember === true) {
-    console.log("Diskon 20% untuk member!")
-} else if (totalGroceries > 500000) {
-    console.log("Diskon 10% untuk non member")
-} else if (totalGroceries > 200000 && isMember === true) {
-    console.log("Diskon 5% untuk member")
+// if (totalGroceries > 500000 && isMember === true) {
+//     console.log("Diskon 20% untuk member!")
+// } else if (totalGroceries > 500000) {
+//     console.log("Diskon 10% untuk non member")
+// } else if (totalGroceries > 200000 && isMember === true) {
+//     console.log("Diskon 5% untuk member")
+// } else {
+//     console.log("Belanja lebih banyak untuk dapat diskon!")
+// }
+
+// STORE nilaiLogika WITH ANY NUMBER
+// STORE nilaiMatematika WITH ANY NUMBER
+
+// IF nilaiLogika >= 70 AND nilaiMatematika >= 70 THEN
+//     DISPLAY "Lulus"
+// ELSE IF nilaiLogika >= 60 OR nilaiMatematika >= 60 THEN
+//     DISPLAY "Ujian ulang"
+// ELSE
+//     DISPLAY "Tidak lulus"
+// END IF
+
+
+let logicScore = 60
+let mathScore = 80
+
+if (logicScore >= 70 && mathScore >= 70) {
+    console.log("Lulus")
+} else if (logicScore >= 60 && mathScore >= 60) {
+    console.log("Ujian ulang")
 } else {
-    console.log("Belanja lebih banyak untuk dapat diskon!")
+    console.log("Tidak lulus")
 }
