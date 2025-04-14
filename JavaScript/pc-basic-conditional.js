@@ -122,13 +122,28 @@
 // END IF
 
 
-let logicScore = 60
-let mathScore = 80
+// let logicScore = 60
+// let mathScore = 80
 
-if (logicScore >= 70 && mathScore >= 70) {
-    console.log("Lulus")
-} else if (logicScore >= 60 && mathScore >= 60) {
-    console.log("Ujian ulang")
-} else {
-    console.log("Tidak lulus")
-}
+// if (logicScore >= 70 && mathScore >= 70) {
+//     console.log("Lulus")
+// } else if (logicScore >= 60 && mathScore >= 60) {
+//     console.log("Ujian ulang")
+// } else {
+//     console.log("Tidak lulus")
+// }
+
+// Rumus hitung lingkaran
+
+// let pi = Math.PI;
+// let jariJari;
+// let lingkaran = 0
+
+// jariJari = 20
+
+// let kelilingLingkaran = 2 * pi * jariJari
+
+// console.log(kelilingLingkaran)
+
+// console.log(pi, "Value PI")
+// console.log(jariJari, "Value jari jari")
