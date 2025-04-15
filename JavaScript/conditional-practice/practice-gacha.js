@@ -15,12 +15,29 @@ let randomNumber = Math.floor(Math.random() * 100) + 1
 
 console.log(randomNumber)
 
-if (randomNumber >= 1 && randomNumber <= 50) {
-    console.log("Kamu mendapatkan karakter COMMON")
-} else if (randomNumber > 50 && randomNumber <= 80) {
-    console.log("Kamu mendapatkan karakter RARE")
-} else if (randomNumber > 80 && randomNumber <= 95) {
-    console.log("Kamu mendapatkan karakter EPIC")
-} else if (randomNumber > 95 && randomNumber <= 100) {
-    console.log("Kamu mendapatkan karakter LEGENDARY!!")
+// if (randomNumber >= 1 && randomNumber <= 50) {
+//     console.log("Kamu mendapatkan karakter COMMON")
+// } else if (randomNumber > 50 && randomNumber <= 80) {
+//     console.log("Kamu mendapatkan karakter RARE")
+// } else if (randomNumber > 80 && randomNumber <= 95) {
+//     console.log("Kamu mendapatkan karakter EPIC")
+// } else if (randomNumber > 95 && randomNumber <= 100) {
+//     console.log("Kamu mendapatkan karakter LEGENDARY!!")
+// }
+
+// Kalau pakai switch bisa pakai boolean
+
+switch (true) {
+    case (randomNumber <= 50):
+        console.log("Kamu mendapatkan karakter COMMON")
+    break
+    case (randomNumber <= 80):
+        console.log("Kamu mendapatkan karakter RARE")
+    break
+    case (randomNumber <= 95):
+        console.log("Kamu mendapatkan karakter EPIC")
+    break
+    case (randomNumber <= 100):
+        console.log("Kamu mendapatkan karakter LEGENDARY!!")
+    break
 }
