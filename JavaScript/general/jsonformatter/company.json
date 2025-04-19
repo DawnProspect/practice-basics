@@ -1,0 +1,34 @@
+{
+    "Tech Corp": {
+        "ID": "1",
+        "Departments": {
+            "Engineering": {
+                "ID": "1.1",
+                "Teams": {
+                    "Backend": {
+                        "ID": "1.1.1",
+                        "Members": {
+                            "Alice": {
+                                "ID": "1.1.1.01",
+                                "Role": "Senior Engineer"
+                            },
+                            "Bob": {
+                                "ID": "1.1.1.02",
+                                "Role": "Junior Engineer"
+                            }
+                        }
+                    },
+                    "Frontend": {
+                        "ID": "1.1.2",
+                        "Members": {
+                            "Charlie": {
+                                "ID": "1.1.2.01",
+                                "Role": "Mid Engineer"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
