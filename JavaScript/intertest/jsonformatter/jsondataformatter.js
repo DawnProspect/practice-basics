@@ -12,3 +12,9 @@ Most data were in nested objects but the output will be in array object nested
 
 // Need to read json data first
 const fs = require("fs")
+const data = JSON.parse(fs.readFileSync(""))
+
+// Make functions to read the data
+async function CompaniesData() {
+
+}
