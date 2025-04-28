@@ -8,6 +8,7 @@ Read JSON file and change the format
 
 Most data were in nested objects but the output will be in array object nested
 
+Continue Learning
 */
 
 // Need to read json data first
