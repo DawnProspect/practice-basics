@@ -17,5 +17,5 @@ const data = JSON.parse(fs.readFileSync(""))
 
 // Make functions to read the data
 async function CompaniesData() {
-
+    const companyNameArray = []
 }
