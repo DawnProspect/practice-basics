@@ -13,9 +13,20 @@ Continue Learning
 
 // Need to read json data first
 const fs = require("fs")
-const data = JSON.parse(fs.readFileSync(""))
+const data = JSON.parse(fs.readFileSync("./company.json", "utf-8"))
+
+// Tes data kebaca atau tidak
+// console.log(data)
 
 // Make functions to read the data
 async function CompaniesData() {
-    const companyNameArray = []
+    const result = []
+
+    for (let companyName in data) {
+        const company = data[companyName]
+
+        console.log(company)
+    }
 }
+
+CompaniesData()
